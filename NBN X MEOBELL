@@ -99,7 +99,7 @@ local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/
 
 local Window = Fluent:CreateWindow({
     Title="NBN XE HUD",
-    SubTitle="Tổng Hợp Script",
+    SubTitle="MENU",
     TabWidth=157,
     Size=UDim2.fromOffset(450,300),
     Acrylic=true,
@@ -131,3 +131,12 @@ Tabs.Main1:AddButton({
        loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
     end
 })
+
+-- Tab 2: Strongest battleground
+Tabs.Main1:AddButton({
+     Title="NBN X TSB",
+     Callback=function()
+       loadstring(game:HttpGet("https://rawscripts.net/raw/The-Strongest-Battlegrounds-SION-ELTNAM-ATLASIA-61168"))()
+    end
+})
+
